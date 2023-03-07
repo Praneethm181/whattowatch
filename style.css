@@ -1,0 +1,45 @@
+
+
+
+body{
+    background-color: #ECF2FF;
+}
+
+#main
+{
+    text-align: center;
+}
+
+
+.center{
+
+    text-align: center;
+
+}
+
+
+.center-title{
+
+    text-align: center;
+    margin-top: 5%
+
+}
+
+.moviename{
+    margin-top: 4%;
+}
+
+
+.display{
+    padding: 0% 20%;
+}
+
+#btnplay{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fonts{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 90%;
+    margin: 20%;
+}
