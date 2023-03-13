@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
+<title>What to watch?</title>
+
+</head>
+<body>
+  <div class="bg">
+    <div class="head">
+<header>
+<a href="#" class="logo">What to Watch</a>
+<ul>
+<li><a href="#" class="active">HOME</a></li>
+<li><a href="#">MY LIST</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+</div>
+
+<section>
+  <h2 id="text"> What To Watch</h2> 
+  
+  <a href="#sec" id="btn">explore</a>
+</section>
+
+
+
+
+
+</header>
+
+
+</div>
+<script>
+  let text=document.getElementById('text');
+  let btn=document.getElementById('btn');
+
+  /*window.addEventListener('scroll',function(){
+  let value=window.scrollY;
+  text.style.top=marginRight=value * 4 +'px';
+  text.style.top=marginTop=value * 1.5 +'px';
+  btn.style.top=marginTop=value * 1.5 +'px';
+
+
+  })*/
+</script>
+<div class="sec" id="sec">
+  <div class="container">
+
+
+    <input type="radio" name="slider" class="d-none" id="s1" checked>
+    <input type="radio" name="slider" class="d-none" id="s2">
+    <input type="radio" name="slider" class="d-none" id="s3">
+    <input type="radio" name="slider" class="d-none" id="s4">
+    <input type="radio" name="slider" class="d-none" id="s5">
+
+    <div class="cards">
+      <label for="s1" id="slide1">
+        <div class="card">
+          <div class="image">
+            <img src="images/p1.jpg" alt="Joker">
+            <div class="dots">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="infos">
+            <span class="name">Joker</span>
+            <span class="dis">Arthur Fleck, a party clown, 
+              leads an impoverished life with his ailing mother.
+              However, when society shuns him and brands him as a freak, 
+              he decides to embrace the life of crime and chaos.</span>
+          </div>
+          <a href="https://www.primevideo.com/dp/amzn1.dv.gti.62b8aa90-65b0-6f92-1736-7f21d5b07ac9?autoplay=0&ref_=atv_cf_strg_wb" class="btn-watch">watch</a>
+          <div class="socials">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </label>
+
+      <label for="s2" id="slide2">
+        <div class="card">
+          <div class="image">
+            <img src="images/p2.jpg" alt="Creed III">
+            <div class="dots">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+            </div>
+          </div>
+          <div class="infos">
+            <span class="name">Creed III</span>
+            <span class="dis">Adonis Creed is thriving in his career and family life.
+               When Damian, a childhood friend and former boxing prodigy resurfaces after serving time in prison,
+               he's eager to prove that he deserves his shot in the ring
+               The face-off between former friends is more than just a fight</span>
+          </div>
+          <a href="https://www.primevideo.com/dp/amzn1.dv.gti.aab65618-eef1-2216-397a-d9e21d03d41c?autoplay=0&ref_=atv_cf_strg_wb" class="btn-watch">watch</a>
+          <div class="socials">
+           
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </label>
+
+      <label for="s3" id="slide3">
+        <div class="card">
+          <div class="image">
+            <img src="images/p3.png" alt="Top gun:Maverick">
+            <div class="dots">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+            </div>
+          </div>
+          <div class="infos">
+            <span class="name">Top gun:
+              Maverick</span>
+            <span class="dis">Thirty years of service leads Maverick
+               to train a group of elite TOPGUN graduates to prepare 
+               for a high-profile mission while Maverick battles his past demons.</span>
+          </div>
+          <a href="https://www.primevideo.com/dp/amzn1.dv.gti.e6867686-3989-4e51-ad7b-19ff5edea2f4?autoplay=0&ref_=atv_cf_strg_wb" class="btn-watch">watch</a>
+          <div class="socials">
+            
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </label>
+
+      <label for="s4" id="slide4">
+        <div class="card">
+          <div class="image">
+            <img src="images/p4.jpeg" alt="John wick 4">
+            <div class="dots">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+            </div>
+          </div>
+          <div class="infos">
+            <span class="name">John wick 4</span>
+            <span class="dis">With the price on his head ever increasing,
+               legendary hit man John Wick takes his fight against the High Table global 
+               as he seeks out the most powerful players in the underworld, 
+              from New York to Paris to Japan to Berlin.</span>
+          </div>
+          <a href="https://www.youtube.com/watch?v=yjRHZEUamCc" class="btn-watch">watch</a>
+          <div class="socials">
+           
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </label>
+
+      <label for="s5" id="slide5">
+        <div class="card">
+          <div class="image">
+            <img src="images/p5.jpg" alt="The Batman">
+            <div class="dots">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+            </div>
+          </div>
+          <div class="infos">
+            <span class="name">The Batman</span>
+            <span class="dis">Batman is called to intervene when the
+               mayor of Gotham City is murdered.
+               Soon, his investigation leads him to uncover a web of corruption,
+                linked to his own dark past</span>
+          </div>
+          <a href="https://www.primevideo.com/dp/amzn1.dv.gti.e78b472d-4cbe-49e9-b05a-ace30495e398?autoplay=0&ref_=atv_cf_strg_wb" class="btn-watch">watch</a>
+          <div class="socials">
+        
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+        </div>
+      </label>
+    </div>
+
+  </div>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
